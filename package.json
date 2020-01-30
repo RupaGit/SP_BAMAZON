@@ -1,0 +1,24 @@
+{
+  "name": "SP_BAMAZON",
+  "version": "1.0.0",
+  "description": "Rupa's Amazon store front using mySQL, Node.JS",
+  "main": "bAmazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RupaGit/SP_BAMAZON.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RupaGit/SP_BAMAZON/issues"
+  },
+  "homepage": "https://github.com/RupaGit/SP_BAMAZON#readme",
+  "dependencies": {
+    "inquirer": "^7.0.3",
+    "mysql": "^2.18.1"
+  }
+}
