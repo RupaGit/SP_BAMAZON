@@ -6,7 +6,7 @@ var connection = mysql.createConnection({
     host: "localhost",
     port: 3306,
     user: "root",
-    password: "",
+    password: "Deardenis1",
     database: "bamazon"
 });
 
@@ -154,7 +154,7 @@ function displayManagerOptions() {
             name: "managerChoices",
             type: "list",
             message: "Hello Manager! Welcome... Please select any option below ",
-            choices: ["VIEW PRODUCTS", "VIEW LOW INVENTORY", "ADD TO INVENTORY", "ADD NEW PRODUCT", "RETURN TO MAIN"]
+            choices: ["VIEW PRODUCTS", "VIEW LOW INVENTORY", "ADD TO INVENTORY", "ADD NEW PRODUCT", "EXIT"]
         })
         .then(function (answer) {
             // based on their answer, either call the bid or the post functions
